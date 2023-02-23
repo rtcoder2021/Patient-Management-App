@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 
 const Login = ({ setIsAuthenticated }) => {
-  const adminEmail = 'admin@example.com';
-  const adminPassword = 'qwerty';
+  const adminEmail = 'adminaccess@example.com';
+  const adminPassword = 'admin1';
 
-  const [email, setEmail] = useState('admin@example.com');
-  const [password, setPassword] = useState('qwerty');
+  const [email, setEmail] = useState('adminaccess@example.com');
+  const [password, setPassword] = useState('admin1');
 
   const handleLogin = e => {
     e.preventDefault();
